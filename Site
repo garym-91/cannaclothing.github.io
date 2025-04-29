@@ -1,0 +1,75 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canna Clothing</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f7f7f7;
+      color: #333;
+    }
+    header {
+      background-color: #1e2b24;
+      color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      background-color: #3a4d40;
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .section {
+      padding: 2rem;
+      background-color: white;
+      margin: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      background-color: #1e2b24;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Canna Clothing</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>  <section id="home" class="hero">
+    <h2>Welcome to Canna Clothing</h2>
+    <p>Stylish, sustainable, and street-ready apparel.</p>
+  </section>  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Canna Clothing is a modern apparel brand focused on sustainability and urban fashion. We blend eco-conscious fabrics with cutting-edge design.</p>
+  </section>  <section id="projects" class="section">
+    <h2>Our Projects</h2>
+    <p>From seasonal drops to exclusive collaborations, we bring fresh concepts to life. Stay tuned for our next release.</p>
+  </section>  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: info@cannaclothing.com<br />Instagram: @cannaclothing</p>
+  </section>  <footer>
+    <p>&copy; 2025 Canna Clothing. All rights reserved.</p>
+  </footer>
+</body>
+</html>
